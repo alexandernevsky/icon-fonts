@@ -1,0 +1,579 @@
+@font-face {
+  font-family: 'm2-Icons';
+  src:  url('fonts/m2-Icons.eot?lsoteh');
+  src:  url('fonts/m2-Icons.eot?lsoteh#iefix') format('embedded-opentype'),
+    url('fonts/m2-Icons.ttf?lsoteh') format('truetype'),
+    url('fonts/m2-Icons.woff?lsoteh') format('woff'),
+    url('fonts/m2-Icons.svg?lsoteh#m2-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="m2-icon-"], [class*=" m2-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'm2-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.m2-icon-Facebook:before {
+  content: "\e900";
+}
+.m2-icon-Instagram:before {
+  content: "\e901";
+}
+.m2-icon-Vkontakte:before {
+  content: "\e902";
+}
+.m2-icon-Crown:before {
+  content: "\e903";
+}
+.m2-icon-Lighting:before {
+  content: "\e904";
+}
+.m2-icon-Star:before {
+  content: "\e905";
+}
+.m2-icon-Top:before {
+  content: "\e906";
+}
+.m2-icon-Wi-Fi:before {
+  content: "\e907";
+}
+.m2-icon-Settings:before {
+  content: "\e908";
+}
+.m2-icon-Menu:before {
+  content: "\e909";
+}
+.m2-icon-Lock-Opened:before {
+  content: "\e90a";
+}
+.m2-icon-Lock-Closed:before {
+  content: "\e90b";
+}
+.m2-icon-Lamp:before {
+  content: "\e90c";
+}
+.m2-icon-Filters:before {
+  content: "\e90d";
+}
+.m2-icon-Calendar:before {
+  content: "\e90e";
+}
+.m2-icon-Calculator:before {
+  content: "\e90f";
+}
+.m2-icon-Filter:before {
+  content: "\e910";
+}
+.m2-icon-Sort-1-9:before {
+  content: "\e911";
+}
+.m2-icon-Sort-9-1:before {
+  content: "\e912";
+}
+.m2-icon-Sort-A-Z:before {
+  content: "\e913";
+}
+.m2-icon-Sort-Asc:before {
+  content: "\e914";
+}
+.m2-icon-Sort-Default:before {
+  content: "\e915";
+}
+.m2-icon-Sort-Desc:before {
+  content: "\e916";
+}
+.m2-icon-Sort-Down:before {
+  content: "\e917";
+}
+.m2-icon-Sort-Left:before {
+  content: "\e918";
+}
+.m2-icon-Sort-Right:before {
+  content: "\e919";
+}
+.m2-icon-Sort-Up:before {
+  content: "\e91a";
+}
+.m2-icon-Sort-Z-A:before {
+  content: "\e91b";
+}
+.m2-icon-View-Grid:before {
+  content: "\e91c";
+}
+.m2-icon-View-List:before {
+  content: "\e91d";
+}
+.m2-icon-View-Table:before {
+  content: "\e91e";
+}
+.m2-icon-Close-Circle:before {
+  content: "\e91f";
+}
+.m2-icon-Close-Small:before {
+  content: "\e920";
+}
+.m2-icon-Close:before {
+  content: "\e921";
+}
+.m2-icon-Forbidden:before {
+  content: "\e922";
+}
+.m2-icon-Minus-Circle-Small:before {
+  content: "\e923";
+}
+.m2-icon-Minus-Circle:before {
+  content: "\e924";
+}
+.m2-icon-Minus-Small:before {
+  content: "\e925";
+}
+.m2-icon-Minus:before {
+  content: "\e926";
+}
+.m2-icon-Plus-Circle-Small:before {
+  content: "\e927";
+}
+.m2-icon-Plus-Circle:before {
+  content: "\e928";
+}
+.m2-icon-Plus-Small:before {
+  content: "\e929";
+}
+.m2-icon-Plus:before {
+  content: "\e92a";
+}
+.m2-icon-Search-Default:before {
+  content: "\e92b";
+}
+.m2-icon-Search-Heart:before {
+  content: "\e92c";
+}
+.m2-icon-Search-Minus:before {
+  content: "\e92d";
+}
+.m2-icon-Search-Plus:before {
+  content: "\e92e";
+}
+.m2-icon-Apartments:before {
+  content: "\e92f";
+}
+.m2-icon-Home-Add:before {
+  content: "\e930";
+}
+.m2-icon-Home-Like:before {
+  content: "\e931";
+}
+.m2-icon-Home-Mortgage:before {
+  content: "\e932";
+}
+.m2-icon-Home-Percent:before {
+  content: "\e933";
+}
+.m2-icon-Home-Search:before {
+  content: "\e934";
+}
+.m2-icon-Home:before {
+  content: "\e935";
+}
+.m2-icon-Plan-Off:before {
+  content: "\e936";
+}
+.m2-icon-Plan:before {
+  content: "\e937";
+}
+.m2-icon-Success:before {
+  content: "\e938";
+}
+.m2-icon-Success-Circle:before {
+  content: "\e939";
+}
+.m2-icon-Question-Circle:before {
+  content: "\e93a";
+}
+.m2-icon-Loader:before {
+  content: "\e93b";
+}
+.m2-icon-Info-Circle:before {
+  content: "\e93c";
+}
+.m2-icon-Bell:before {
+  content: "\e93d";
+}
+.m2-icon-Bell-Off:before {
+  content: "\e93e";
+}
+.m2-icon-Alert:before {
+  content: "\e93f";
+}
+.m2-icon-Alert-Circle:before {
+  content: "\e940";
+}
+.m2-icon-Centering:before {
+  content: "\e941";
+}
+.m2-icon-Compass-Circle:before {
+  content: "\e942";
+}
+.m2-icon-Draw:before {
+  content: "\e943";
+}
+.m2-icon-Geo-Location:before {
+  content: "\e944";
+}
+.m2-icon-Layers:before {
+  content: "\e945";
+}
+.m2-icon-Map:before {
+  content: "\e946";
+}
+.m2-icon-Panorama:before {
+  content: "\e947";
+}
+.m2-icon-Pin:before {
+  content: "\e948";
+}
+.m2-icon-Ruller:before {
+  content: "\e949";
+}
+.m2-icon-Traffic:before {
+  content: "\e94a";
+}
+.m2-icon-Pie-Chart:before {
+  content: "\e94b";
+}
+.m2-icon-Attachment:before {
+  content: "\e94c";
+}
+.m2-icon-Clipboard:before {
+  content: "\e94d";
+}
+.m2-icon-Document-Copy:before {
+  content: "\e94e";
+}
+.m2-icon-Document:before {
+  content: "\e94f";
+}
+.m2-icon-Excel:before {
+  content: "\e950";
+}
+.m2-icon-File-Corrupted:before {
+  content: "\e951";
+}
+.m2-icon-File-Error:before {
+  content: "\e952";
+}
+.m2-icon-File-Minus:before {
+  content: "\e953";
+}
+.m2-icon-File-Plus:before {
+  content: "\e954";
+}
+.m2-icon-File-Sucess:before {
+  content: "\e955";
+}
+.m2-icon-File-Upload:before {
+  content: "\e956";
+}
+.m2-icon-File-Wait:before {
+  content: "\e957";
+}
+.m2-icon-File:before {
+  content: "\e958";
+}
+.m2-icon-Folder:before {
+  content: "\e959";
+}
+.m2-icon-Histogram:before {
+  content: "\e95a";
+}
+.m2-icon-Mail:before {
+  content: "\e95b";
+}
+.m2-icon-Video:before {
+  content: "\e95c";
+}
+.m2-icon-Camera:before {
+  content: "\e95d";
+}
+.m2-icon-Desktop:before {
+  content: "\e95e";
+}
+.m2-icon-Globe:before {
+  content: "\e95f";
+}
+.m2-icon-Image:before {
+  content: "\e960";
+}
+.m2-icon-Mobile:before {
+  content: "\e961";
+}
+.m2-icon-No-Camera:before {
+  content: "\e962";
+}
+.m2-icon-Rouble:before {
+  content: "\e963";
+}
+.m2-icon-Shield-Success:before {
+  content: "\e964";
+}
+.m2-icon-Shield:before {
+  content: "\e965";
+}
+.m2-icon-Tag:before {
+  content: "\e966";
+}
+.m2-icon-Upload:before {
+  content: "\e967";
+}
+.m2-icon-Download:before {
+  content: "\e968";
+}
+.m2-icon-Bookmark:before {
+  content: "\e969";
+}
+.m2-icon-Call-Circle:before {
+  content: "\e96a";
+}
+.m2-icon-Call:before {
+  content: "\e96b";
+}
+.m2-icon-Chat:before {
+  content: "\e96c";
+}
+.m2-icon-Clock:before {
+  content: "\e96d";
+}
+.m2-icon-Copy:before {
+  content: "\e96e";
+}
+.m2-icon-Edit:before {
+  content: "\e96f";
+}
+.m2-icon-External-Link:before {
+  content: "\e970";
+}
+.m2-icon-Eye:before {
+  content: "\e971";
+}
+.m2-icon-Fullscreen:before {
+  content: "\e972";
+}
+.m2-icon-Heart-Fill:before {
+  content: "\e973";
+}
+.m2-icon-Heart-Line:before {
+  content: "\e974";
+}
+.m2-icon-Link:before {
+  content: "\e975";
+}
+.m2-icon-Microphone:before {
+  content: "\e976";
+}
+.m2-icon-More:before {
+  content: "\e977";
+}
+.m2-icon-No-Eye:before {
+  content: "\e978";
+}
+.m2-icon-Print:before {
+  content: "\e979";
+}
+.m2-icon-Reload:before {
+  content: "\e97a";
+}
+.m2-icon-Send:before {
+  content: "\e97b";
+}
+.m2-icon-Share:before {
+  content: "\e97c";
+}
+.m2-icon-Star1:before {
+  content: "\e97d";
+}
+.m2-icon-Story:before {
+  content: "\e97e";
+}
+.m2-icon-Timelapse:before {
+  content: "\e97f";
+}
+.m2-icon-Trash-Bin:before {
+  content: "\e980";
+}
+.m2-icon-Turn-Off:before {
+  content: "\e981";
+}
+.m2-icon-Turn:before {
+  content: "\e982";
+}
+.m2-icon-Agent-Circle:before {
+  content: "\e983";
+}
+.m2-icon-User-Circle:before {
+  content: "\e984";
+}
+.m2-icon-Customers:before {
+  content: "\e985";
+}
+.m2-icon-Login:before {
+  content: "\e986";
+}
+.m2-icon-Logout:before {
+  content: "\e987";
+}
+.m2-icon-Chevron-Up:before {
+  content: "\e988";
+}
+.m2-icon-Arrow-Back:before {
+  content: "\e989";
+}
+.m2-icon-Arrow-Down:before {
+  content: "\e98a";
+}
+.m2-icon-Arrow-Expand:before {
+  content: "\e98b";
+}
+.m2-icon-Arrow-Left-Right:before {
+  content: "\e98c";
+}
+.m2-icon-Arrow-Left:before {
+  content: "\e98d";
+}
+.m2-icon-Arrow-Right:before {
+  content: "\e98e";
+}
+.m2-icon-Arrow-Up-Down:before {
+  content: "\e98f";
+}
+.m2-icon-Arrow-Up:before {
+  content: "\e990";
+}
+.m2-icon-Chevron-Double-Down:before {
+  content: "\e991";
+}
+.m2-icon-Chevron-Double-Left:before {
+  content: "\e992";
+}
+.m2-icon-Chevron-Double-Right:before {
+  content: "\e993";
+}
+.m2-icon-Chevron-Double-Up:before {
+  content: "\e994";
+}
+.m2-icon-Chevron-Down-Circle:before {
+  content: "\e995";
+}
+.m2-icon-Chevron-Down-Small:before {
+  content: "\e996";
+}
+.m2-icon-Chevron-Down:before {
+  content: "\e997";
+}
+.m2-icon-Chevron-Left-Circle:before {
+  content: "\e998";
+}
+.m2-icon-Chevron-Left-Small:before {
+  content: "\e999";
+}
+.m2-icon-Chevron-Left:before {
+  content: "\e99a";
+}
+.m2-icon-Chevron-Right-Circle:before {
+  content: "\e99b";
+}
+.m2-icon-Chevron-Right-Small:before {
+  content: "\e99c";
+}
+.m2-icon-Chevron-Right:before {
+  content: "\e99d";
+}
+.m2-icon-Chevron-Up-Circle:before {
+  content: "\e99e";
+}
+.m2-icon-Chevron-Up-Small:before {
+  content: "\e99f";
+}
+.m2-icon-Analytics:before {
+  content: "\e9a0";
+}
+.m2-icon-Apps:before {
+  content: "\e9a1";
+}
+.m2-icon-Billing:before {
+  content: "\e9a2";
+}
+.m2-icon-Calculating-Cost:before {
+  content: "\e9a3";
+}
+.m2-icon-Calendar1:before {
+  content: "\e9a4";
+}
+.m2-icon-Clients:before {
+  content: "\e9a5";
+}
+.m2-icon-Document-Designer:before {
+  content: "\e9a6";
+}
+.m2-icon-Electronic-Registration:before {
+  content: "\e9a7";
+}
+.m2-icon-Favorites:before {
+  content: "\e9a8";
+}
+.m2-icon-Inspection-Property:before {
+  content: "\e9a9";
+}
+.m2-icon-M2-Pattern:before {
+  content: "\e9aa";
+}
+.m2-icon-Messages:before {
+  content: "\e9ab";
+}
+.m2-icon-Mortgage:before {
+  content: "\e9ac";
+}
+.m2-icon-My-Searches:before {
+  content: "\e9ad";
+}
+.m2-icon-New-Messages:before {
+  content: "\e9ae";
+}
+.m2-icon-Offers:before {
+  content: "\e9af";
+}
+.m2-icon-Profile:before {
+  content: "\e9b0";
+}
+.m2-icon-Realtor:before {
+  content: "\e9b1";
+}
+.m2-icon-Repair:before {
+  content: "\e9b2";
+}
+.m2-icon-SBR:before {
+  content: "\e9b3";
+}
+.m2-icon-Search:before {
+  content: "\e9b4";
+}
+.m2-icon-Services:before {
+  content: "\e9b5";
+}
+.m2-icon-Settings1:before {
+  content: "\e9b6";
+}
+.m2-icon-Staff:before {
+  content: "\e9b7";
+}
